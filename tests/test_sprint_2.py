@@ -381,7 +381,7 @@ def test_MXTEST_9053_PLP_Product_images_Selected_Category(web_drivers):
 # *********************************YA QUEDO*********************************
 @pytest.mark.sprint2_regression
 @pytest.mark.flaky(reruns=2)
-@pytest.mark.luisao
+@pytest.mark.luisao_new_tag
 def test_MXTEST_9027_PLP_Generic_images_from_Selected_Brand(web_drivers):
     home_page = HomePage(*web_drivers)
     url = "https://testintranet.oreillyauto.mx/ecatalog-mx/#/catalog/c/filters/cabin-air-filter/l/02700"
