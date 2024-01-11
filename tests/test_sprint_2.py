@@ -21,7 +21,6 @@ _JSON_PATH = os.path.join(pathlib.Path(__file__).parent.parent, "locators", "Hom
 def test_MXTEST_9075_HomePage_Vehicle_Filtering_Functionality_All_countries(web_drivers):
     home_page = HomePage(*web_drivers)
     home_page.open()
-    time.sleep(4)
     home_page.wait_spinner_disappears()
     home_page.click_on_Picker_vehicle_btn()
     home_page.click_on_year_dropdown(1)
