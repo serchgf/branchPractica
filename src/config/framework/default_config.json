@@ -1,0 +1,15 @@
+{
+  "browser_name": "chrome",
+  "implicit_wait": 20,
+  "explicit_wait": 15,
+  "drivers_path": "driver/chromedriver.exe",
+  "maximize": true,
+  "incognito": true,
+  "headless": {
+    "enabled": false,
+    "resolution": {
+      "width": 1368,
+      "height": 768
+    }
+  }
+}
