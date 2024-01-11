@@ -42,8 +42,9 @@ def test_MXTEST_9075_HomePage_Vehicle_Filtering_Functionality_All_countries(web_
 @pytest.mark.flaky(reruns=2)
 def test_MXTEST_9074_HomePage_Vehicle_Filtering_Functionality_2_countries(web_drivers):
     home_page = HomePage(*web_drivers)
-    home_page.open()
-    time.sleep(4)
+    #home_page.open()
+    #time.sleep(4)
+    home_page.open_new_url("https://teamnet.oreillyauto.mx/catalogo/#/")
     home_page.wait_spinner_disappears()
     home_page.click_on_Picker_vehicle_btn()
     home_page.select_usa_can_country()
