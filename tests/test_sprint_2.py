@@ -15,6 +15,8 @@ _JSON_PATH = os.path.join(pathlib.Path(__file__).parent.parent, "locators", "Hom
 # --------------------------------------------JUAN LARIOS---------------------------------------------------------------
 # HOME PAGE-------------------------------------------------------------------------------------------------------------
 # MXTEST-9075
+# PRUEBA 12354
+# Hola
 @pytest.mark.sprint2_regression
 @pytest.mark.homepages2
 @pytest.mark.flaky(reruns=2)
